@@ -17,6 +17,7 @@
 }
 
 body {
+  min-height: 100vh;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +25,30 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+
+.con{
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainDiv{
+  min-height: 350px;
+}
+.dropdiv{
+  min-width: 50%;
+}
+
+.imadiv{
+  max-width: 300px;
+}
+.colorpiece{
+  border-radius: 2px;
+  border: 1px solid black;
+  margin-right: 10px;
+  width: 30px;
+  height: 20px;
 }
