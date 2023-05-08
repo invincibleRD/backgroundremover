@@ -1,3 +1,4 @@
+## App Link: https://bgremover-ruby.vercel.app/
 # Image Background Remover
 
 This is a web application for removing background from images using AI. Users can either upload an image or take a picture using their device camera and have the background removed. The application uses the remove.bg API to remove the background from the image.
